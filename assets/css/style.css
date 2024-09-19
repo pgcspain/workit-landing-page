@@ -1,0 +1,286 @@
+
+
+html,
+body {
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/*header #24053E background*/
+body::before {
+    content: "";
+    position: absolute;
+    background-color: #24053E;
+    border-radius: 50%;
+    width: 300%;
+    height: 962px;
+    z-index: -1;
+    left: -100%;
+    top: -481px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.enumeration {
+    font-family: 'Fraunces', sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-mobile {
+    width: 80%;
+    position: absolute;
+    top: 377px;
+}
+
+nav {
+    width: 93vw;
+    height: 67px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+}
+
+#logo-light {
+    width: 95.76px;
+    height: 24.61px;
+}
+
+#apply-top {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+#apply-top:hover {
+    color: #44ffa1;
+}
+
+#apply-top::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #44ffa1;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+}
+
+header {
+    position: relative;
+    height: 561px;
+}
+
+#header-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 56px 20px 0 20px;
+}
+
+#header-main-text {
+    width: 335px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.learn-more {
+
+    bottom: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.learn-more,
+.green-button a {
+    text-decoration: none;
+    color: #24053E;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 700;
+}
+
+.green-button {
+    background-color: #44ffa1;
+    padding: 12px 32px;
+    transition: 0.3s ease;
+    border: 2px solid #44ffa1;
+}
+
+.green-button:hover,
+a:hover {
+    background-color: #24053E;
+    color: #44ffa1;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #44ffa1;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+}
+
+main {
+    position: relative;
+}
+
+#features {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 20px;
+    gap: 32px;
+}
+
+#features::before {
+    content: "";
+    position: absolute;
+    background-color: #fcf8ff;
+    border-radius: 50%;
+    width: 300%;
+    height: 1000px;
+    z-index: -2;
+    left: -100%;
+    top: -150px;
+}
+
+#features-screenreader {
+    display: none;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: #24053E;
+}
+
+.enumeration {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #584D62;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    line-height: 1.2;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.article-p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 100;
+    width: 100%;
+}
+
+#founder {
+    position: relative;
+    padding: 62px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#founder-image {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    width: 280px;
+    height: 280px;
+}
+
+#founder-box {
+    background-color: #24053E;
+    color: white;
+    width: 335px;
+    height: 393px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+
+#founder-box h2 {
+    font-size: 28px;
+}
+
+#founder-box p {
+    font-weight: 100;
+    font-size: 17px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding: 80px;
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
